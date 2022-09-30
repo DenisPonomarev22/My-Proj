@@ -1,0 +1,30 @@
+﻿<Window x:Class="ProjectRegister.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectRegister"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ButtomVhod" Content="Вход" Margin="390,240,360,0" VerticalAlignment="Top" Height="20"/>
+        <Button x:Name="ButtomOtmena" Content="Отмена" Margin="460,240,290,0" VerticalAlignment="Top" Height="20"/>
+
+        <Label Content="Телеком Нева Связь" HorizontalAlignment="Left" Margin="200,78,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Номер" Margin="310,150,430,260" FontSize="12"/>
+        <Label Content="Пароль" Margin="310,174,430,236" FontSize="12"/>
+        <Label Content="Код" Margin="310,196,430,214" FontSize="12" />
+
+
+
+        <PasswordBox HorizontalAlignment="Left" Margin="390,175,0,0" VerticalAlignment="Top" Width="120" Height="20"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="390,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox HorizontalAlignment="Left" Height="20" Margin="390,200,0,0" VerticalAlignment="Top" Width="60"/>
+        
+
+
+        <!--<Border BorderBrush="Black" BorderThickness="1" Margin="170,56,170,145" Width="460"/>
+        -->
+
+    </Grid>
+</Window>
